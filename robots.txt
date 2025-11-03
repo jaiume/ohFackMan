@@ -1,0 +1,25 @@
+User-agent: Slurp
+Disallow: /
+
+User-agent: Webcrawler
+Disallow: /
+
+User-agent: DuckDuckGo
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+

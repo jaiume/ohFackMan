@@ -1,0 +1,54 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archives / backups
+*.bak
+*.tar
+*.zip
+*.gz
+*.bz2
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.cache/**
+
+# Environment / secrets
+.env
+.env.*
+config.php
+db.php
+
+# PHP Composer
+/vendor/
+composer.lock
+
+# Node / front-end (in case of local tooling)
+/node_modules/
+*.map
+
+# Build artifacts
+/dist/
+/build/
+
+# Uploads/cache (adjust as needed)
+uploads/
+cache/
+sessions/
+
+# Misc
+*.orig
+*.rej
+
+# System
+.svn/
+.hg/
+
