@@ -1,0 +1,12 @@
+{
+    "name": "ohfackman/ohfackman-journal",
+    "description": "Personal journal application",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}
+
+

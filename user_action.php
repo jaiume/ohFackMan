@@ -5,10 +5,7 @@ include 'db.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Assuming PHPMailer is installed in the 'PHPMailer' folder
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 function generateToken() {
     // Generate a secure, unique token
