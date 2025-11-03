@@ -25,7 +25,6 @@ temp/
 .env
 .env.*
 config.php
-db.php
 
 # PHP Composer
 /vendor/
