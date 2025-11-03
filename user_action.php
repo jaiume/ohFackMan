@@ -25,6 +25,15 @@ function sendLoginLink($email, $token, $base_url,$loginsender,$loginsendername,$
         $mail->SMTPSecure = ''; // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 25; // TCP port to connect to
 
+        // Relax SSL verification to ignore certificate/hostname mismatches
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true,
+            ),
+        );
+
         // Recipients
         $mail->setFrom($loginsender, $loginsendername);
         $mail->addAddress($email); // Add a recipient
